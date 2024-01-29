@@ -11,12 +11,12 @@ class CreateQuestionsCategoriesContentsTable extends Migration
      */
     public function up(): void
     {
-        Schema::create('questions_categories_contents', function (Blueprint $table) {
+        Schema::create('questions_sub_categories', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->uuid('question_categories_id')->nullable();
-            $table->string('content_name', 255)->nullable();
-            $table->longText('content_icon')->nullable();
-            $table->integer('content_quota')->nullable();
+            $table->string('sub_category_name', 255)->nullable();
+            $table->longText('sub_category_icon')->nullable();
+            $table->integer('sub_category_quota')->nullable();
             $table->timestamps();
         });
     }
@@ -26,6 +26,6 @@ class CreateQuestionsCategoriesContentsTable extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('questions_categories_contents');
+        Schema::dropIfExists('questions_sub_categories');
     }
 };

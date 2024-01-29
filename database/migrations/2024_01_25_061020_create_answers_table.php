@@ -11,10 +11,16 @@ class CreateAnswersTable extends Migration
      */
     public function up(): void
     {
-        Schema::create('answers', function (Blueprint $table) {
+        Schema::create('questions_answers', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->string('answer_name', 255)->nullable();
             $table->string('answer_code', 255)->nullable();
+            $table->float('answer_point', 15, 0)->default(0)->nullable();
+            $table->boolean('is_correct')->default(0)->nullable();
+            $table->uuid('question_id')->nullable();
+            $table->uuid('question_category_id')->nullable();
+            $table->uuid('question_sub_category_id')->nullable();
+            $table->uuid('helper_id')->nullable();
             $table->timestamps();
         });
     }
@@ -24,6 +30,6 @@ class CreateAnswersTable extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('answers');
+        Schema::dropIfExists('questions_answers');
     }
 };

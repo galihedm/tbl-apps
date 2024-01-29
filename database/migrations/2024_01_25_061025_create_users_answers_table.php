@@ -14,8 +14,10 @@ class CreateUsersAnswersTable extends Migration
         Schema::create('users_answers', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->uuid('user_id')->nullable();
+            $table->uuid('question_id')->nullable();
             $table->uuid('answer_id')->nullable();
             $table->string('answer_code', 255)->nullable();
+            $table->float('answer_point', 15, 0)->default(0)->nullable();
             $table->timestamps();
         });
     }

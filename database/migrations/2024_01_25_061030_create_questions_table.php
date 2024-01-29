@@ -13,13 +13,10 @@ class CreateQuestionsTable extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('question_categories_contents_id')->nullable();
+            $table->uuid('question_sub_categories_id')->nullable();
             $table->longText('question_text')->nullable();
             $table->longText('question_content_text')->nullable();
-            $table->uuid('answer_id')->nullable();
-            $table->float('true_answer_point', 15, 0)->default(0)->nullable();
-            $table->float('false_answer_point', 15, 0)->default(0)->nullable();
-            $table->uuid('helper_id')->nullable();
+            $table->longText('question_file_url')->nullable();
             $table->timestamps();
         });
     }

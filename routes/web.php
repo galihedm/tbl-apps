@@ -23,7 +23,7 @@ use App\Http\Controllers\FrontEnd\Pages\Questions\Soal\SoalController;
 
 Auth::routes();
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/rumah', [HomeController::class, 'index'])->name('home');
 Route::get('/question/video', [VideoController::class, 'index'])->name('question.video.home');
 Route::get('/question/video/questions', [VideoController::class, 'getQuestion'])->name('question.video.questions');
 Route::get('/question/soal/questions', [SoalController::class, 'getQuestion'])->name('question.soal.questions');
