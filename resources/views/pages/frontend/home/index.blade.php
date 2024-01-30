@@ -89,22 +89,24 @@
             </div>
             <div class="row">
                 <div class="col-auto col-sm-12 col-xs-12 px-0 mb-4 hide-in-mobile-md hide-in-mobile-lg" style="overflow-x: hidden;">
-                    <div class="d-flex align-items-center align-items-sm-center pt-2" style="overflow-x: scroll;">
-                        <div class="p-2">
-                            <img src="{{ asset('assets/img/icons/ic-trivia-active.png') }}" style="width: 100%;height: 100%;">
-                            <span class="text-menu">Trivia Classic</span>
-                        </div>
-                        <div class="p-2">
-                            <img src="{{ asset('assets/img/icons/ic-gambar-active.png') }}" style="width: 100%;height: 100%;">
-                            <span class="text-menu">Trivia Gambar</span>
-                        </div>
-                        <div class="p-2">
-                            <img src="{{ asset('assets/img/icons/ic-mic-active.png') }}" style="width: 100%;height: 100%;">
-                            <span class="text-menu">Missing Lyrics</span>
-                        </div>
-                        <div class="p-2">
-                            <img src="{{ asset('assets/img/icons/ic-video-active.png') }}" style="width: 100%;height: 100%;">
-                            <span class="text-menu">Trivia Video</span>
+                    <div class="container" style="overflow-x: scroll;">
+                        <div class="row row-cols-4">
+                            <div class="col">
+                                <img src="{{ asset('assets/img/icons/ic-trivia-active.png') }}" style="width: 100%;">
+                                <span class="text-menu">Trivia Classic</span>
+                            </div>
+                            <div class="col">
+                                <img src="{{ asset('assets/img/icons/ic-gambar.png') }}" style="width: 100%;">
+                                <span class="text-menu">Trivia Gambar</span>
+                            </div>
+                            <div class="col">
+                                <img src="{{ asset('assets/img/icons/ic-mic.png') }}" style="width: 100%;">
+                                <span class="text-menu">Missing Lyrics</span>
+                            </div>
+                            <div class="col">
+                                <img src="{{ asset('assets/img/icons/ic-video.png') }}" style="width: 100%;">
+                                <span class="text-menu">Trivia Video</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,7 +115,49 @@
                 <div class="col-auto col-xl-12 col-lg-12 tab-pane fade show active" id="v-pills-soal" role="tabpanel" aria-labelledby="v-pills-soal-tab" tabindex="0">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            @foreach($cate_soal->subCategory as $cs)
+                            <div class="swiper-slide">
+                                <div class="card" style="background-color: #ED1C24;">
+                                    <div class="card-body text-white">
+                                        <h4 class="card-title">Tebak Soal</h4>
+                                        <h6 class="card-subtitle mb-2">Umum</h6>
+                                    </div>
+                                    <div class="card-body padding-in-card-body">
+                                        <img src="{{ asset('assets/img/svg/ic-question-mark.svg') }}" class="swiper-img-card">
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card" style="background-color: #ED1C24;">
+                                    <div class="card-body text-white">
+                                        <h4 class="card-title">Tebak Soal</h4>
+                                        <h6 class="card-subtitle mb-2">Olahraga</h6>
+                                    </div>
+                                    <div class="card-body padding-in-card-body">
+                                        <img src="{{ asset('assets/img/svg/ic-sport.svg') }}" class="swiper-img-card">
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card" style="background-color: #ED1C24;">
+                                    <div class="card-body text-white">
+                                        <h4 class="card-title">Tebak Soal</h4>
+                                        <h6 class="card-subtitle mb-2">Musik</h6>
+                                    </div>
+                                    <div class="card-body padding-in-card-body">
+                                        <img src="{{ asset('assets/img/svg/ic-girl-music.svg') }}" class="swiper-img-card">
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /* @foreach($cate_soal->subCategory as $cs)
                             <div class="swiper-slide">
                                 <div class="card" style="background-color: #ED1C24;">
                                     <div class="card-body text-white">
@@ -128,7 +172,7 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach
+                            @endforeach */ -->
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
