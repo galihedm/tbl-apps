@@ -11,10 +11,9 @@
         }
 
         .banner-image {
-          position: relative;
           width: 100%;
-          height: 75vh;
           background-color: #ed1c24;
+          padding-bottom: 75px;
         }
 
         .group {
@@ -201,75 +200,127 @@
         .group-5 {
           position: relative;
           max-width: 375px;
-          max-height: 200px;
-        }
-
-        .mask-group-wrapper {
-          position: relative;
-          width: 387px;
-          height: 212px;
-          background-color: #fac304;
-          border-radius: 16px;
+          max-height: 375px;
         }
 
         .mask-group {
-          position: absolute;
-          width: 375px;
-          height: 200px;
-          top: 6px;
-          left: 6px;
+          width: 100%;
+          max-height: 200px;
+        }
+
+        .pertanyaan {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(38, 38, 38, 1);
         }
     </style>
 @endpush
 @section('content')
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-auto col-12">
-            <div class="overlap-2">
-                <div class="banner-image">
-                    <div class="row">
-                        <div class="col-auto col-12 mb-5 mt-5">
-                            <div class="d-flex align-items-center">
-                                <div class="">
-                                    <img class="group" src="https://c.animaapp.com/jpVby7k9/img/group-1775@2x.png" />
-                                </div>
-                                <div class="overlap-wrapper">
-                                    <div class="overlap-3">
-                                        <img class="img" src="https://c.animaapp.com/jpVby7k9/img/group-2@2x.png" />
-                                        <div class="overlap-group-wrapper">
-                                            <div class="overlap-group-2">
-                                                <img class="ellipse" src="https://c.animaapp.com/jpVby7k9/img/ellipse-99.svg" />
-                                                <img class="subtraction" src="https://c.animaapp.com/jpVby7k9/img/subtraction-8.svg" />
-                                                <img class="subtraction-2" src="https://c.animaapp.com/jpVby7k9/img/subtraction-7.svg" />
-                                                <div class="text-wrapper">T</div>
-                                                <div class="text-wrapper-2">T</div>
-                                            </div>
-                                        </div>
-                                        <div class="text-wrapper-3">9910</div>
+<div class="row">
+    <div class="col-auto col-12">
+        <div class="banner-image">
+            <div class="row">
+                <div class="col-auto col-12 mb-5 mt-5">
+                    <div class="d-flex align-items-center px-3">
+                        <div class="">
+                            <img class="group" src="https://c.animaapp.com/jpVby7k9/img/group-1775@2x.png" />
+                        </div>
+                        <div class="overlap-wrapper">
+                            <div class="overlap-3">
+                                <img class="img" src="https://c.animaapp.com/jpVby7k9/img/group-2@2x.png" />
+                                <div class="overlap-group-wrapper">
+                                    <div class="overlap-group-2">
+                                        <img class="ellipse" src="https://c.animaapp.com/jpVby7k9/img/ellipse-99.svg" />
+                                        <img class="subtraction" src="https://c.animaapp.com/jpVby7k9/img/subtraction-8.svg" />
+                                        <img class="subtraction-2" src="https://c.animaapp.com/jpVby7k9/img/subtraction-7.svg" />
+                                        <div class="text-wrapper">T</div>
+                                        <div class="text-wrapper-2">T</div>
                                     </div>
                                 </div>
-                                <div class="div-wrapper ms-auto">
-                                    <div class="overlap-4">
-                                        <img class="group-2" src="https://c.animaapp.com/jpVby7k9/img/group@2x.png" />
-                                        <div class="group-3">
-                                            <div class="overlap-group-3">
-                                                <img class="path" src="https://c.animaapp.com/jpVby7k9/img/path-342.svg" />
-                                                <div class="text-wrapper-4">+</div>
-                                            </div>
-                                        </div>
-                                        <img class="group-4" src="https://c.animaapp.com/jpVby7k9/img/group-146@2x.png" />
-                                        <div class="text-wrapper-5">2</div>
-                                    </div>
-                                </div>
+                                <div class="text-wrapper-3">9910</div>
                             </div>
                         </div>
-                        <div class="col-auto col-12 mt-5">
-                            <div class="group-5">
-                                <div class="mask-group-wrapper">
+                        <div class="div-wrapper ms-auto">
+                            <div class="overlap-4">
+                                <img class="group-2" src="https://c.animaapp.com/jpVby7k9/img/group@2x.png" />
+                                <div class="group-3">
+                                    <div class="overlap-group-3">
+                                        <img class="path" src="https://c.animaapp.com/jpVby7k9/img/path-342.svg" />
+                                        <div class="text-wrapper-4">+</div>
+                                    </div>
+                                </div>
+                                <img class="group-4" src="https://c.animaapp.com/jpVby7k9/img/group-146@2x.png" />
+                                <div class="text-wrapper-5">2</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto col-12 mt-5">
+                    <div class="row">
+                        <div class="col-auto col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            
+                        </div>
+                        <div class="col-auto col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 px-5">
+                            <div class="card" style="background-color: #FAC304;">
+                                <div class="card-body text-center">
                                     <img class="mask-group" src="https://c.animaapp.com/jpVby7k9/img/mask-group@2x.png" />
                                 </div>
                             </div>
                         </div>
+                        <div class="col-auto col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-auto col-12">
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="--bs-progress-bg: #FAC304;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-light" style="width: 75%;"></div>
+        </div>
+    </div>
+    <div class="col-auto col-12">
+        <div class="badge-wrapper">
+            <div class="card badge-wrapper-in-card">
+                <div class="card-body text-center">
+                    <div class="text-time">0:30</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-auto col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+                <div class="card no-border">
+                    <div class="card-body text-center">
+                        <p class="pertanyaan">Pertanyaan akan dibacakan didalam video diatas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                            <i class="ion-logo-facebook mr-2"></i> Kangguru
+                        </button>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                            <i class="ion-logo-facebook mr-2"></i> Bekantan
+                        </button>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                            <i class="ion-logo-facebook mr-2"></i> Koala
+                        </button>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                            <i class="ion-logo-facebook mr-2"></i> Tikus Bekantung
+                        </button>
                     </div>
                 </div>
             </div>

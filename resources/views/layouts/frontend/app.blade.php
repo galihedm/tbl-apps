@@ -12,7 +12,7 @@
         <link rel="stylesheet" id="style" href="{{ asset('assets/css/style-app.css') }}">
         @stack('styles')
     </head>
-    <body>
+    <body style="overflow-x: hidden;">
         @yield('content')
         @include('components.frontend.partials.navbar')
 

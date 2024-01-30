@@ -26,7 +26,7 @@
 </style>
 @endpush
 @section('content')
-<nav class="navbar navbar-expand-lg bg-body-tertiary hide-in-mobile-md hide-in-mobile-lg">
+<nav class="navbar navbar-expand-lg bg-body-tertiary hide-in-mobile-md hide-in-mobile-lg hide-in-mobile-xl hide-in-mobile-xxl">
     <div class="container-md">
         <a href="/">
             <img src="{{ asset('assets/img/logo-tbl.png') }}" class="logo-header-tbl">
@@ -78,17 +78,17 @@
                     <div class="owl-carousel owl-theme">
                         <a class="item">
                             <img src="{{ asset('assets/img/banner_quiz_time.png') }}" class="hide-in-mobile-sm hide-in-mobile-xs">
-                            <img src="{{ asset('assets/img/banner-quiz-mobile.png') }}" class="mt-5 hide-in-mobile-md hide-in-mobile-lg">
+                            <img src="{{ asset('assets/img/banner-quiz-mobile.png') }}" class="mt-5 hide-in-mobile-md hide-in-mobile-lg hide-in-mobile-xl hide-in-mobile-xxl">
                         </a>
                         <a class="item">
                             <img src="{{ asset('assets/img/banner_jkt_48_lg.png') }}" class="hide-in-mobile-sm hide-in-mobile-xs">
-                            <img src="{{ asset('assets/img/banner-jkt-48-mobile.png') }}" class="mt-5 hide-in-mobile-md hide-in-mobile-lg">
+                            <img src="{{ asset('assets/img/banner-jkt-48-mobile.png') }}" class="mt-5 hide-in-mobile-md hide-in-mobile-lg hide-in-mobile-xl hide-in-mobile-xxl">
                         </a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-auto col-sm-12 col-xs-12 px-0 mb-4 hide-in-mobile-md hide-in-mobile-lg" style="overflow-x: hidden;">
+                <div class="col-auto col-sm-12 col-xs-12 px-0 mb-4 hide-in-mobile-md hide-in-mobile-lg hide-in-mobile-xl hide-in-mobile-xxl" style="overflow-x: hidden;">
                     <div class="container" style="overflow-x: scroll;">
                         <div class="row row-cols-4">
                             <div class="col">
