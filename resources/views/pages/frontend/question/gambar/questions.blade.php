@@ -1,7 +1,15 @@
 @extends('layouts.frontend.app')
-@section('title', 'Home')
+@section('title', 'Trivia Gambar')
 @push('styles')
     <style type="text/css">
+        .overlap-2 {
+          position: absolute;
+          width: 100%;
+          height: 274px;
+          top: 0;
+          left: 0;
+        }
+
         .banner-image {
           width: 100%;
           background-color: #ed1c24;
@@ -198,12 +206,6 @@
         .mask-group {
           width: 100%;
         }
-
-        .text-header-soal {
-            font-size: 25px;
-            font-weight: 400;
-            color: rgba(255, 255, 255, 1);
-        }
     </style>
 @endpush
 @section('content')
@@ -248,19 +250,18 @@
                 </div>
                 <div class="col-auto col-12 mt-5">
                     <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3">
-                            <div class="text-center">
-                                <img src="{{ asset('assets/img/logo-tbl.png') }}" class="logo-header-tbl">
-                                <br>
-                                <img src="{{ asset('assets/img/svg/tbl-words.svg') }}" class="logo-header-tbl">
-                            </div>
+                        <div class="col-auto col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            
                         </div>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="container-fluid">
-                                <div class="container text-center">
-                                    <p class="text-header-soal">Dapatkan konten menarik dari TBL,<br>Mainkan kuisnya dan raih hadiahnya!</p>
+                        <div class="col-auto col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 px-5">
+                            <div class="card" style="background-color: #FAC304;">
+                                <div class="card-body text-center">
+                                    <img class="mask-group" src="{{ asset('assets/img/jkt-member.png') }}" />
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-auto col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            
                         </div>
                     </div>
                 </div>
@@ -288,7 +289,7 @@
             <div class="col-auto col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                 <div class="card no-border">
                     <div class="card-body text-center">
-                        <p class="pertanyaan">Jenis hewan apakah karakter Nyonya Puff dalam animasi SpongeBob SquarePants?</p>
+                        <p class="pertanyaan">Siapakah nama member<br> JKT48 di atas?</p>
                     </div>
                 </div>
             </div>
@@ -296,22 +297,22 @@
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Badut
+                            <i class="ion-logo-facebook mr-2"></i> Siska
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Buntal
+                            <i class="ion-logo-facebook mr-2"></i> Gracia
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Salmon
+                            <i class="ion-logo-facebook mr-2"></i> Shania
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Cakalang
+                            <i class="ion-logo-facebook mr-2"></i> Fani
                         </button>
                     </div>
                 </div>
@@ -322,15 +323,6 @@
 @endsection
 @push('scripts')
 <script>
-    // var mySwiper = new Swiper('.mySwiper', {
-    //     // Optional parameters
-    //     loop: true,
-
-    //     // If we need pagination
-    //     pagination: {
-    //         el: '.swiper-pagination',
-    //     },
-    // })
     $(document).ready(function () {
 
     })

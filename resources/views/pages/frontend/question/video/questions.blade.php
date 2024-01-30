@@ -205,13 +205,6 @@
 
         .mask-group {
           width: 100%;
-          max-height: 200px;
-        }
-
-        .pertanyaan {
-            font-size: 16px;
-            font-weight: 600;
-            color: rgba(38, 38, 38, 1);
         }
     </style>
 @endpush
@@ -222,9 +215,9 @@
             <div class="row">
                 <div class="col-auto col-12 mb-5 mt-5">
                     <div class="d-flex align-items-center px-3">
-                        <div class="">
+                        <a href="{{ route('home') }}" class="px-3">
                             <img class="group" src="https://c.animaapp.com/jpVby7k9/img/group-1775@2x.png" />
-                        </div>
+                        </a>
                         <div class="overlap-wrapper">
                             <div class="overlap-3">
                                 <img class="img" src="https://c.animaapp.com/jpVby7k9/img/group-2@2x.png" />

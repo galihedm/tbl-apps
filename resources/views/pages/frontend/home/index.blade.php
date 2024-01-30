@@ -190,7 +190,7 @@
                                         <img src="{{ asset('assets/img/svg/people_quest_mark.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="#" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.gambar.questions') }}" class="btn btn-light">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@
                                         <img src="{{ asset('assets/img/svg/people_quest_mark.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="#" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.lyric.questions') }}" class="btn btn-light">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -244,14 +244,6 @@
         </div>
     </div>
 </div>
-<!-- <div class="row">
-    <div class="col-4">
-        
-    </div>
-    <div class="col-8">
-        
-    </div>
-</div> -->
 @endsection
 @push('scripts')
 <script>

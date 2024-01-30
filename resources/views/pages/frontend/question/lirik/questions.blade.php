@@ -1,7 +1,15 @@
 @extends('layouts.frontend.app')
-@section('title', 'Home')
+@section('title', 'Trivia Lirik')
 @push('styles')
     <style type="text/css">
+        .overlap-2 {
+          position: absolute;
+          width: 100%;
+          height: 274px;
+          top: 0;
+          left: 0;
+        }
+
         .banner-image {
           width: 100%;
           background-color: #ed1c24;
@@ -250,15 +258,13 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3">
                             <div class="text-center">
-                                <img src="{{ asset('assets/img/logo-tbl.png') }}" class="logo-header-tbl">
-                                <br>
-                                <img src="{{ asset('assets/img/svg/tbl-words.svg') }}" class="logo-header-tbl">
+                                <p class="text-header-soal">Yang mencinta fortune cookie,<br>_ _ _ _  _ _ _ _ _ tak seburuk itu.<br>Hey! Hey! Hey!</p>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="container-fluid">
                                 <div class="container text-center">
-                                    <p class="text-header-soal">Dapatkan konten menarik dari TBL,<br>Mainkan kuisnya dan raih hadiahnya!</p>
+                                    <p class="text-light">JKT48</p>
                                 </div>
                             </div>
                         </div>
@@ -288,7 +294,7 @@
             <div class="col-auto col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                 <div class="card no-border">
                     <div class="card-body text-center">
-                        <p class="pertanyaan">Jenis hewan apakah karakter Nyonya Puff dalam animasi SpongeBob SquarePants?</p>
+                        <p class="pertanyaan">Lengkapi lirik lagu<br> di atas</p>
                     </div>
                 </div>
             </div>
@@ -296,22 +302,22 @@
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Badut
+                            <i class="ion-logo-facebook mr-2"></i> Masa Depan
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Buntal
+                            <i class="ion-logo-facebook mr-2"></i> Masa Kapan
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Salmon
+                            <i class="ion-logo-facebook mr-2"></i> Masa Itu
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                         <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
-                            <i class="ion-logo-facebook mr-2"></i> Ikan Cakalang
+                            <i class="ion-logo-facebook mr-2"></i> Masa Lalu
                         </button>
                     </div>
                 </div>
