@@ -632,6 +632,10 @@
   border: none !important;
 }
 
+.no-border-top {
+  border-top: none !important;
+}
+
 .nav-custom {
   border-top: solid 0.1px #bdbdbd;
 }

@@ -190,12 +190,7 @@
 
     .prize {
         background-color: #ED1C24;
-    }
-
-    .img-card-item {
-        width: 100%;
-        object-fit: contain;
-        max-height: 265px;
+        padding-bottom: 250px;
     }
 
     .card-addon {
@@ -259,44 +254,72 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row margin-top-layout">
         <div class="col-12 p-0">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
                             <div class="card card-addon">
-                                <div class="card-body">
-                                    <div class="card-image">
+                                <div class="card-body text-center">
+                                    <div class="card-image text-center mb-3">
                                         <img src="{{ asset('assets/img/pz-tab.png') }}" class="img-card-item">
                                     </div>
+                                    <h4>Samsung Tab S6</h4>
+                                    <p class="">1500000 Poin</p>
+                                </div>
+                                <div class="card-footer nav-custom-bg-light no-border-top text-center">
+                                    <button type="button" class="btn-customs mb-2 btn-round btn-outline-primary text-left w-100 mb-md-3">
+                                        <i class="ion-logo-twitter mr-2"></i> Redeem
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
                             <div class="card card-addon">
-                                <div class="card-body">
-                                    <div class="card-image">
+                                <div class="card-body text-center">
+                                    <div class="card-image text-center mb-3">
                                         <img src="{{ asset('assets/img/pz-watch.png') }}" class="img-card-item">
                                     </div>
+                                    <h4>Apple Watch</h4>
+                                    <p class="">1500000 Poin</p>
+                                </div>
+                                <div class="card-footer nav-custom-bg-light no-border-top text-center">
+                                    <button type="button" class="btn-customs mb-2 btn-round btn-outline-primary text-left w-100 mb-md-3">
+                                        <i class="ion-logo-twitter mr-2"></i> Redeem
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
                             <div class="card card-addon">
-                                <div class="card-body">
-                                    <div class="card-image">
+                                <div class="card-body text-center">
+                                    <div class="card-image text-center mb-3">
                                         <img src="{{ asset('assets/img/pz-watch-2.png') }}" class="img-card-item">
                                     </div>
+                                    <h4>Smart Watch</h4>
+                                    <p class="">1500000 Poin</p>
+                                </div>
+                                <div class="card-footer nav-custom-bg-light no-border-top text-center">
+                                    <button type="button" class="btn-customs mb-2 btn-round btn-outline-primary text-left w-100 mb-md-3">
+                                        <i class="ion-logo-twitter mr-2"></i> Redeem
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
                             <div class="card card-addon">
-                                <div class="card-body">
-                                    <div class="card-image">
+                                <div class="card-body text-center">
+                                    <div class="card-image text-center mb-3">
                                         <img src="{{ asset('assets/img/pz-switch.png') }}" class="img-card-item">
                                     </div>
+                                    <h4>Nintendo Switch</h4>
+                                    <p class="">1500000 Poin</p>
+                                </div>
+                                <div class="card-footer nav-custom-bg-light no-border-top text-center">
+                                    <button type="button" class="btn-customs mb-2 btn-round btn-outline-primary text-left w-100 mb-md-3">
+                                        <i class="ion-logo-twitter mr-2"></i> Redeem
+                                    </button>
                                 </div>
                             </div>
                         </div>
