@@ -8,6 +8,7 @@ use App\Http\Controllers\FrontEnd\Pages\Questions\Soal\SoalController;
 use App\Http\Controllers\FrontEnd\Pages\Questions\Lyrics\LyricController;
 use App\Http\Controllers\FrontEnd\Pages\Questions\Pictures\PictureController;
 use App\Http\Controllers\FrontEnd\Pages\Rewards\RewardController;
+use App\Http\Controllers\FrontEnd\Pages\Topups\TopupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,7 @@ Route::get('/question/soal/questions', [SoalController::class, 'getQuestion'])->
 Route::get('/question/lyric/questions', [LyricController::class, 'getQuestion'])->name('question.lyric.questions');
 Route::get('/question/picture/questions', [PictureController::class, 'getQuestion'])->name('question.gambar.questions');
 Route::get('/rewards', [RewardController::class, 'index'])->name('rewards.index');
+Route::get('/rewards/redeemed', [RewardController::class, 'successed'])->name('rewards.success');
+Route::get('/rewards/empty_coin', [RewardController::class, 'emptyCoin'])->name('rewards.emptyCoin');
+Route::get('/rewards/empty_quota', [RewardController::class, 'emptyQuota'])->name('rewards.emptyQuota');
+Route::get('/topups', [TopupController::class, 'index'])->name('topups.index');

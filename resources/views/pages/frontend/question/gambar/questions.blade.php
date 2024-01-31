@@ -296,22 +296,22 @@
             <div class="col-auto col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
-                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-customs-round btn-customs-outline btn-fb text-left w-100 mb-md-3">
                             <i class="ion-logo-facebook mr-2"></i> Siska
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
-                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-customs-round btn-customs-outline btn-fb text-left w-100 mb-md-3">
                             <i class="ion-logo-facebook mr-2"></i> Gracia
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
-                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-customs-round btn-customs-outline btn-fb text-left w-100 mb-md-3">
                             <i class="ion-logo-facebook mr-2"></i> Shania
                         </button>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
-                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-round btn-outline btn-fb text-left w-100 mb-md-3">
+                        <button type="button" class="btn btn-lg btn-customs mb-2 btn-customs-round btn-customs-outline btn-fb text-left w-100 mb-md-3">
                             <i class="ion-logo-facebook mr-2"></i> Fani
                         </button>
                     </div>

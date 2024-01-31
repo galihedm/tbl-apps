@@ -11,4 +11,19 @@ class RewardController extends Controller
     {
         return view('pages.frontend.rewards.index');
     }
+
+    public function successed()
+    {
+        return view('pages.frontend.rewards.redeemed');
+    }
+
+    public function emptyCoin()
+    {
+        return view('pages.frontend.rewards.emptyCoin');
+    }
+
+    public function emptyQuota()
+    {
+        return view('pages.frontend.rewards.emptyQuota');
+    }
 }

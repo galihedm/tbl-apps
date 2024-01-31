@@ -1,5 +1,5 @@
 @extends('layouts.frontend.app')
-@section('title', 'Hadiah')
+@section('title', 'Top Up')
 @push('styles')
 <style type="text/css">
     .banner-image {
@@ -244,7 +244,7 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="container-fluid">
                                     <div class="container text-center">
-                                        <h3 class="text-light">INFO HADIAH</h3>
+                                        <h2 class="text-light">TOP UP</h2>
                                     </div>
                                 </div>
                             </div>
@@ -258,67 +258,21 @@
         <div class="col-12 p-0">
             <div class="container-fluid">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="row justify-content-center align-items-center mb-3">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-12 col-xs-12">
                             <div class="card card-addon">
+                                <div class="card-header no-border-bottom nav-custom-bg-light text-center mt-3">
+                                    <h3 class="text-top-up mb-3">3 Credit</h3>
+                                </div>
                                 <div class="card-body text-center">
                                     <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-tab.png') }}" class="img-card-item img-card-item-addon">
+                                        <img src="{{ asset('assets/img/heart.png') }}" class="img-card-item img-card-item-addon">
                                     </div>
-                                    <h4>Samsung Tab S6</h4>
-                                    <p class="">1500000 Poin</p>
+                                    <h4 class="text-secondary mb-3">Rp 11.000</h4>
                                 </div>
-                                <a href="{{ route('rewards.success') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                            <div class="card card-addon">
-                                <div class="card-body text-center">
-                                    <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-watch.png') }}" class="img-card-item img-card-item-addon">
-                                    </div>
-                                    <h4>Apple Watch</h4>
-                                    <p class="">1500000 Poin</p>
-                                </div>
-                                <a href="{{ route('rewards.emptyCoin') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                            <div class="card card-addon">
-                                <div class="card-body text-center">
-                                    <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-watch-2.png') }}" class="img-card-item img-card-item-addon">
-                                    </div>
-                                    <h4>Smart Watch</h4>
-                                    <p class="">1500000 Poin</p>
-                                </div>
-                                <a href="{{ route('rewards.emptyQuota') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                            <div class="card card-addon">
-                                <div class="card-body text-center">
-                                    <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-switch.png') }}" class="img-card-item img-card-item-addon">
-                                    </div>
-                                    <h4>Nintendo Switch</h4>
-                                    <p class="">1500000 Poin</p>
-                                </div>
-                                <a href="{{ route('rewards.success') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
+                                <a href="#" class="card-footer no-border-top nav-custom-bg-light text-center">
+                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-primary text-left w-50 mb-md-3">
+                                        <i class="ion-logo-twitter mr-2"></i> Beli
                                     </button>
                                 </a>
                             </div>

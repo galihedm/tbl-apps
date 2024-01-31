@@ -21,7 +21,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-center">
+                    <a href="{{ route('topups.index') }}" class="nav-link text-center">
                         <img src="{{ asset('assets/img/svg/ic-wallet.svg') }}">
                         <p class="m-0 nav-text">Top Up</p>
                     </a>

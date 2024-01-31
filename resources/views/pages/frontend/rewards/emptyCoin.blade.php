@@ -239,17 +239,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto col-12 mt-5">
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="container-fluid">
-                                    <div class="container text-center">
-                                        <h3 class="text-light">INFO HADIAH</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -258,69 +247,24 @@
         <div class="col-12 p-0">
             <div class="container-fluid">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="row justify-content-center align-items-center mb-3">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-xs-12">
                             <div class="card card-addon">
                                 <div class="card-body text-center">
                                     <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-tab.png') }}" class="img-card-item img-card-item-addon">
+                                        <img src="{{ asset('assets/img/girl-sad.png') }}" class="img-card-item">
                                     </div>
-                                    <h4>Samsung Tab S6</h4>
-                                    <p class="">1500000 Poin</p>
+                                    <h2 class="mb-3">OOPS...<br>MAAF POIN<br>TIDAK CUKUP</h2>
                                 </div>
-                                <a href="{{ route('rewards.success') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
                             </div>
                         </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                            <div class="card card-addon">
-                                <div class="card-body text-center">
-                                    <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-watch.png') }}" class="img-card-item img-card-item-addon">
-                                    </div>
-                                    <h4>Apple Watch</h4>
-                                    <p class="">1500000 Poin</p>
-                                </div>
-                                <a href="{{ route('rewards.emptyCoin') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                            <div class="card card-addon">
-                                <div class="card-body text-center">
-                                    <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-watch-2.png') }}" class="img-card-item img-card-item-addon">
-                                    </div>
-                                    <h4>Smart Watch</h4>
-                                    <p class="">1500000 Poin</p>
-                                </div>
-                                <a href="{{ route('rewards.emptyQuota') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                            <div class="card card-addon">
-                                <div class="card-body text-center">
-                                    <div class="card-image text-center mb-3">
-                                        <img src="{{ asset('assets/img/pz-switch.png') }}" class="img-card-item img-card-item-addon">
-                                    </div>
-                                    <h4>Nintendo Switch</h4>
-                                    <p class="">1500000 Poin</p>
-                                </div>
-                                <a href="{{ route('rewards.success') }}" class="card-footer nav-custom-bg-light no-border-top text-center">
-                                    <button type="button" class="btn-customs mb-2 btn-customs-round btn-customs-outline-primary text-left w-100 mb-md-3">
-                                        <i class="ion-logo-twitter mr-2"></i> Redeem
-                                    </button>
-                                </a>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="">
+                                <button type="button" class="btn btn-customs mb-2 btn-customs-round btn-outline-light text-left w-100 mb-md-3">
+                                    <i class="ion-logo-twitter mr-2"></i> Selesai
+                                </button>
                             </div>
                         </div>
                     </div>
