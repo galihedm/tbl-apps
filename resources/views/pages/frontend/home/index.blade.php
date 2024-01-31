@@ -157,22 +157,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- /* @foreach($cate_soal->subCategory as $cs)
-                            <div class="swiper-slide">
-                                <div class="card" style="background-color: #ED1C24;">
-                                    <div class="card-body text-white">
-                                        <h4 class="card-title">{{ $cate_soal->name }}</h4>
-                                        <h6 class="card-subtitle mb-2">{{ $cs->sub_category_name }}</h6>
-                                    </div>
-                                    <div class="card-body padding-in-card-body">
-                                        <img src="{{ $cs->sub_category_icon }}" class="swiper-img-card">
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
-                                    </div>
-                                </div>
-                            </div>
-                            @endforeach */ -->
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
