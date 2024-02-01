@@ -125,7 +125,7 @@
                                         <img src="{{ asset('assets/img/svg/ic-question-mark.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-md btn-customs btn-customs-round btn-customs-outline-primary text-left w-50 mb-md-3 mb-2">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@
                                         <img src="{{ asset('assets/img/svg/ic-sport.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-md btn-customs btn-customs-round btn-customs-outline-primary text-left w-50 mb-md-3 mb-2">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +153,7 @@
                                         <img src="{{ asset('assets/img/svg/ic-girl-music.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.soal.questions') }}" class="btn btn-md btn-customs btn-customs-round btn-customs-outline-primary text-left w-50 mb-md-3 mb-2">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                         <img src="{{ asset('assets/img/svg/people_quest_mark.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="{{ route('question.gambar.questions') }}" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.gambar.questions') }}" class="btn btn-md btn-customs btn-customs-round btn-customs-outline primaryhtext-left w-50 mb-md-3 mb-2">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@
                                         <img src="{{ asset('assets/img/svg/people_quest_mark.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="{{ route('question.lyric.questions') }}" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.lyric.questions') }}" class="btn btn-md btn-customs btn-customs-round btn-customs-outline primaryttext-left w-50 mb-md-3 mb-2">Main</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                                         <img src="{{ asset('assets/img/svg/people_quest_mark.svg') }}" class="swiper-img-card">
                                     </div>
                                     <div class="card-body">
-                                        <a href="{{ route('question.video.questions') }}" class="btn btn-light">Main</a>
+                                        <a href="{{ route('question.video.questions') }}" class="btn btn-md btn-customs btn-customs-round btn-customs-outline primaryttext-left w-50 mb-md-3 mb-2">Main</a>
                                     </div>
                                 </div>
                             </div>
